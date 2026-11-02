@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ops-report"
+version = "1.0.0"
+description = "Error reporting and heartbeats from a Python service to an ops responder"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["ops_report"]
